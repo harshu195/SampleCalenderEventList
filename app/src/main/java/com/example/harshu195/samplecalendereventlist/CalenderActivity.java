@@ -26,7 +26,7 @@ public class CalenderActivity extends Activity {
                 Calendar beginTime = Calendar.getInstance();
                 beginTime.set(2015, 5, 12, 17, 30);
                 Calendar endTime = Calendar.getInstance();
-                endTime.set(2015, 5, 19, 18, 30);
+                endTime.set(2015, 5, 12, 18, 30);
                 Intent intent = new Intent(Intent.ACTION_INSERT)
                         .setData(CalendarContract.Events.CONTENT_URI)
                         .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, beginTime.getTimeInMillis())
